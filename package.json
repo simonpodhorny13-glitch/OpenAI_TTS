@@ -1,0 +1,16 @@
+{
+  "name": "ro-cruises-openai-tts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate the RO Cruises safety demonstration as an MP3 using OpenAI text-to-speech.",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "openai": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
